@@ -6,3 +6,24 @@
 span{
     display: block;
 }
+
+.font-thin{
+font-family: 'Hanken Grotesk', sans-serif;
+font-weight: 100;
+}
+
+.font-light{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 300;
+}
+
+.font-regular{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+.font-medium{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+}
+
