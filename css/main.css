@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.box1{
+display: grid;
+justify-items: center;
+text-align: center;
+background-color: var(--background);
+border-radius: 30px;
+}
+
+
+.box2{
+
+}

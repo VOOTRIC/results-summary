@@ -38,4 +38,8 @@ font-weight: 100;
     --blue: #005ad6;
 }
 
+.text{
+    color: var(--text);
+}
+
 /* https://color.adobe.com/pt/search?q=mono&t=term */
