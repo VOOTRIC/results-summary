@@ -1,6 +1,7 @@
 *{
  margin: 0;
- padding: 0;   
+ padding: 0;
+ box-sizing: border-box;
 }
 
 span{
@@ -30,7 +31,7 @@ font-weight: 100;
 :root{
     /* testar essa cor: #5e388f . Ainda estou em dúvida sobre a cor do background principal*/
     --background: #7E22F5;  
-    --text: #f5f5f5;
+    --text: #e0e0e0;
     --color01: #232F40; 
     --red: #c63637;
     --yellow: #ffcf59;
@@ -38,8 +39,13 @@ font-weight: 100;
     --blue: #005ad6;
 }
 
-.text{
+.c0{
+    color: #fff;
+}
+
+.c1{
     color: var(--text);
 }
+
 
 /* https://color.adobe.com/pt/search?q=mono&t=term */
