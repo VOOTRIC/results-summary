@@ -16,10 +16,12 @@
 
 .box1{
 display: grid;
+width: 360px;
+row-gap: 20px;
 justify-items: center;
 text-align: center;
-padding-top: 25px;
-padding-bottom: 25px;
+padding-top: 30px;
+padding-bottom: 50px;
 background-color: var(--background);
 border-radius: 30px;
 }
@@ -35,7 +37,8 @@ border-radius: 30px;
     border-radius: 50%;
     background-image: linear-gradient(180deg, #641CC2, #641cc200) ;
     width: 175px;
-    height: 175px;    
+    height: 175px;
+    margin: 10px 0;
 }
 
 .number-box > span:first-child{
