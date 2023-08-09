@@ -31,9 +31,17 @@ border-radius: 30px;
 .box2{
 background-color: #fff;
 display: grid;
-justify-items: center;
 border-top-right-radius: 30px;
 border-bottom-right-radius: 30px;
+padding: 0px 40px 30px 40px;
+}
+
+.box2 > h2{
+display: grid;
+align-content: center;
+font-family: 'Hanken Grotesk', sans-serif;
+font-weight: 500;
+color: var(--color01);
 }
 
 .results-container {
@@ -48,8 +56,8 @@ border-bottom-right-radius: 30px;
 
 .button {
     background-color: var(--color01);
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 15px 115px;
+    border-radius: 30px;
     color: #fff;
     text-decoration: none;
   }
@@ -72,9 +80,15 @@ border-bottom-right-radius: 30px;
 .list{
     display: grid;
     list-style: none;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 
-.list > li:first-child{
-    background-color: #fa9d9d8c;
+.list > li{
+display: flex;
+}
+
+.mini-results{
+    display: flex;
+    align-items: center;
 }
