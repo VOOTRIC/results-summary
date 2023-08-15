@@ -3,6 +3,12 @@ h1{
     font-weight: 600;
 }
 
+span > span{
+    display: inline-block;
+    color: var(--color01);
+    font-weight: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,6 +16,7 @@ h1{
     margin: 100px auto 0px auto;
     background-color: #fff;
     border-radius: 30px;
+    box-shadow: 2px 2px 50px #7d22f51c; 
 }
 
 .header{
@@ -38,7 +45,7 @@ background-color: #fff;
 display: grid;
 border-top-right-radius: 30px;
 border-bottom-right-radius: 30px;
-padding: 0px 40px 30px 40px;
+padding: 0px 40px 15px 40px;
 }
 
 .box2 > h2{
@@ -52,20 +59,26 @@ color: var(--color01);
 .results-container {
     display: grid;
     text-align: center;
+    padding: 0px 0px 15px 0px;
 }
 
 .button-container {
     display: grid;
-    place-items: center;
+    place-content: center   ;
 }
 
 .button {
     background-color: var(--color01);
-    padding: 15px 115px;
+    padding: 16px 115px;
     border-radius: 30px;
     color: #fff;
     text-decoration: none;
   }
+
+.button:hover{
+    background-color: var(--background);
+    transition: 0.2s;
+}
 
 .number-box{
     display: grid;
@@ -86,6 +99,7 @@ color: var(--color01);
     display: grid;
     list-style: none;
     grid-template-rows: repeat(4, 1fr);
+    row-gap: 12px;
 }
 
 
@@ -93,8 +107,41 @@ color: var(--color01);
 display: grid;
 grid-template-rows: 1fr;
 grid-template-columns: auto 1fr;
+border-radius: 10px;
+padding: 5px 0px;
 }
 
+.list >:first-child {
+    background-color: #ff555513;
+}
+
+.list >:first-child > .mini-results > h3{
+    color: var(--red);
+}
+
+.list >:nth-child(2){
+    background-color: #ffb01e13;
+}
+
+.list >:nth-child(2) > .mini-results > h3{
+    color: var(--yellow);
+}
+
+.list >:nth-child(3){
+    background-color: #00bb8f13;
+}
+
+.list >:nth-child(3) > .mini-results > h3{
+    color: var(--green);
+}
+
+.list >:nth-child(4){
+    background-color: #1125d613;
+}
+
+.list >:nth-child(4) > .mini-results > h3{
+    color: var(--blue);
+}
 
 .mini-results{
     display: grid;
@@ -102,8 +149,20 @@ grid-template-columns: auto 1fr;
     align-items: center;
 }
 
+.mini-results > h3{
+text-align: left;
+padding-left: 15px;
+}
+
+.mini-results > span{
+    text-align: right;
+    padding-right: 15px;
+    color: #232f406c;
+    font-weight: 500;
+}
+
 .img-box{
     display: grid;
     align-content: center;
-
+    padding-left: 12px;
 }

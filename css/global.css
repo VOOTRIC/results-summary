@@ -3,9 +3,6 @@
  padding: 0;
  box-sizing: border-box;
 }
-body{
-background-color: #eeeeee;
-}
 
 span{
     display: block;
@@ -35,11 +32,11 @@ font-weight: 100;
     /* testar essa cor: #5e388f . Ainda estou em dúvida sobre a cor do background principal*/
     --background: #7E22F5;  
     --text: #e0e0e0;
-    --color01: #232F40; 
-    --red: #c63637;
-    --yellow: #ffcf59;
-    --green: #44e78c;
-    --blue: #005ad6;
+    --color01: #2e3e55; 
+    --red: #F55;
+    --yellow: #FFB21E;
+    --green: #00BB8F;
+    --blue: #1125D6;
 }
 
 .c0{
