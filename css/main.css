@@ -13,11 +13,11 @@ span > span{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 750px;
-    margin: 100px 0px 0px 0px;
+    margin: 0px ;
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 2px 2px 50px #7d22f51c; 
-    justify-self: center;
+    place-self: center;
 }
 
 .header{
@@ -172,7 +172,7 @@ padding-left: 15px;
 @media(max-width: 700px){
 
     .container{
-        justify-self: center;
+        place-self: center;
         margin-top: 0px;
         max-width: 375px;
         grid-template-columns: none;

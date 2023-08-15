@@ -4,9 +4,16 @@
  box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     display: grid;
+    min-height: 100vh;
 }
+
+
 
 span{
     display: block;
