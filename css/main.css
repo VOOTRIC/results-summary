@@ -177,6 +177,7 @@ padding-left: 15px;
         max-width: 375px;
         grid-template-columns: none;
         grid-template-rows: auto 1fr;
+        row-gap: 20px;
     }
 
     .box1{
@@ -206,7 +207,23 @@ padding-left: 15px;
     }
 
     .box2{
-        padding: 0px;
-
+        padding: 0px 30px 0px 30px;
+        row-gap: 20px;
         }
+
+    .box2 > h2{
+        font-size: 1.15rem;
+    }
+
+    .results-container{
+        padding: 0px;
+    }
+
+    .list{
+        row-gap: 15px;
+    }
+
+    .list > li{
+        padding: 15px 0px;
+    }
 }
