@@ -1,3 +1,8 @@
+h1{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,10 +90,20 @@ color: var(--color01);
 
 
 .list > li{
-display: flex;
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: auto 1fr;
 }
 
+
 .mini-results{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+.img-box{
+    display: grid;
+    align-content: center;
+
 }
