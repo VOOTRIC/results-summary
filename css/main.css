@@ -175,7 +175,7 @@ padding-left: 15px;
         justify-self: center;
         margin-top: 0px;
         max-width: 375px;
-        grid-template-columns: 0;
+        grid-template-columns: none;
         grid-template-rows: auto 1fr;
     }
 
@@ -205,4 +205,8 @@ padding-left: 15px;
         font-size: 1rem;
     }
 
+    .box2{
+        padding: 0px;
+
+        }
 }
