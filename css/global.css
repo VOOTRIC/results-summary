@@ -41,7 +41,7 @@ font-weight: 100;
 
 :root{
     /* testar essa cor: #5e388f . Ainda estou em dúvida sobre a cor do background principal*/
-    --background: #7E22F5;  
+    --background: linear-gradient(90deg, #3B30EE, #5941F2);  
     --text: #e0e0e0;
     --color01: #2e3e55; 
     --red: #F55;
