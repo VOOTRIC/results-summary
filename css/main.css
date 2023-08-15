@@ -13,10 +13,11 @@ span > span{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 750px;
-    margin: 100px auto 0px auto;
+    margin: 100px 0px 0px 0px;
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 2px 2px 50px #7d22f51c; 
+    justify-self: center;
 }
 
 .header{
@@ -172,11 +173,36 @@ padding-left: 15px;
 
     .container{
         justify-self: center;
+        margin-top: 0px;
+        max-width: 375px;
+        grid-template-columns: 0;
+        grid-template-rows: auto 1fr;
     }
 
-    
+    .box1{
+        width: 375px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding-bottom: 30px;
+    }
 
+    .number-box{
+        width: 140px;
+        height: 140px;
+        margin: 0px;
+    }
 
+    .number-box > span:first-child{
+        font-size: 3.5rem;
+    }
 
-    
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .text{
+        max-width: 30ch;
+        font-size: 1rem;
+    }
+
 }
